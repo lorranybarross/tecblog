@@ -9,15 +9,15 @@
     <body>
         <div id="header"> <!-- Início header -->
             <div id="titulo"> <!-- Início titulo -->
-                <h1>Tec<span style="color: #FFF;">Blog</span></h1>
+                <h1>Tec<span id="branco">Blog</span></h1>
             </div> <!-- Fim titulo -->
 
             <div id="navegacao"> <!-- Início navegacao -->
-                <a href="index.html" class="navegacao-link">Home</a>
-                <a href="jogos.html" class="navegacao-link">Jogos</a>
-                <a href="celulares.html" class="navegacao-link">Celulares</a>
-                <a href="informatica.html" class="navegacao-link">Informática</a>
-                <a href="eletronicos.html" class="navegacao-link">Eletrônicos</a>
+                <a href="index.html">Home</a>
+                <a href="jogos.html">Jogos</a>
+                <a href="celulares.html">Celulares</a>
+                <a href="informatica.html">Informática</a>
+                <a href="eletronicos.html">Eletrônicos</a>
             </div> <!-- Fim navegacao -->
         </div> <!-- Fim header -->
 
@@ -25,45 +25,46 @@
             <div id="postagens"> <!-- Início postagens -->
                 <div class="post">
                     <h2>Título da postagem 1</h2>
-                    <p class="texto-menor">postado em 03 de maio de 2022</p>
-                    <hr>
+                    <span class="data-post">postado em 03 de maio de 2022</span>
                     <img src="./img/imagem1.jpg">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, iusto explicabo! Perferendis natus harum nihil delectus possimus, eos, pariatur neque tempora explicabo dolorem incidunt ad dicta rem amet facilis animi!</p>
-                    <a href="" class="ler-mais">Leia mais</a>
+                    <a href="">Leia mais</a>
                 </div>
 
                 <div class="post">
                     <h2>Título da postagem 2</h2>
-                    <p class="texto-menor">postado em 25 de abril de 2022</p>
-                    <hr>
+                    <span class="data-post">postado em 25 de abril de 2022</span>
                     <img src="./img/imagem2.jpg">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, iusto explicabo! Perferendis natus harum nihil delectus possimus, eos, pariatur neque tempora explicabo dolorem incidunt ad dicta rem amet facilis animi!</p>
-                    <a href="" class="ler-mais">Leia mais</a>
+                    <a href="">Leia mais</a>
                 </div>
             </div> <!-- Fim postagens -->
 
             <div id="informacoes"> <!-- Início informacoes -->
                 <div class="info">
                     <h3>Postagens recentes</h3>
-                    <p class="texto-menor">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="" class="texto-menor ler-mais">Leia mais</a>
+                    <div class="info-lateral">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="">Leia mais</a>
+                    </div>
                     <hr>
-                    <p class="texto-menor">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="" class="texto-menor ler-mais">Leia mais</a>
+                    <div class="info-lateral">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="">Leia mais</a>
+                    </div>
                 </div>
-                <div class="clear"></div>
                 <div class="info">
                     <h3>Categorias</h3>
-                    <a href="index.html" class="link-categorias">Jogos</a>
-                    <a href="index.html" class="link-categorias">Celulares</a>
-                    <a href="index.html" class="link-categorias">Informática</a>
-                    <a href="index.html" class="link-categorias">Eletrônicos</a>
+                    <a href="index.html">Jogos</a><br>
+                    <a href="index.html">Celulares</a><br>
+                    <a href="index.html">Informática</a><br>
+                    <a href="index.html">Eletrônicos</a><br>
                 </div>
-            </div> <!-- Fim informacoes -->       
+            </div> <!-- Fim informacoes -->    
+            
+            <div id="rodape">
+                Todos os direitos reservados.
+            </div>
         </div> <!-- Fim principal -->
-
-        <div id="rodape-container">
-            <p id="rodape">Todos os direitos reservados.</p>
-        </div>
     </body>
 </html>

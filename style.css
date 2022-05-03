@@ -1,29 +1,42 @@
+/* Limpar formatações padrões */
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font: 16px "Trebuchet MS", Helvetica, sans-serif;
+    font: 1em "Trebuchet MS", Helvetica, sans-serif;
     background: #E6E6E6;
 }
 
 a {
     text-decoration: none;
-    padding: 5px 10px;
+}
+
+a:link, a:visited {
+    color: #F7B600;
 }
 
 a:hover {
+    text-decoration: underline;
+}
+
+#header a:link, #header a:visited {
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+#header a:hover {
     color: #F7B600;
     background: #FFF;
+    text-decoration: none;
 }
 
 img {
-    width: 650px;
+    width: 620px;
 }
 
 h1 {
-    padding: 25px 0;
     font-size: 2.5em;
     color: #4E4E4E;
 }
@@ -36,77 +49,66 @@ h3 {
     background: #CCC;
     color: #565656;
     padding: 5px;
-    margin-bottom: 5px;
-}
-
-hr {
-    margin: 10px 0;
-    opacity: 0.3;
 }
 
 #header {
     background: #F7B600;
+    padding: 15px;
     text-align: center;
 }
 
-#principal, #rodape-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+#titulo, #navegacao {
+    padding: 10px;
 }
 
-#navegacao, #postagens {
-    margin: 0 20px;
-}
-
-#navegacao {
-    padding-bottom: 25px;
-}
-
-#postagens {
-    float: left;
-}
-
-#rodape {
-    text-align: center;
-    background: #CCC;
-    width: 920px;
-    padding: 15px 0;
-}
-
-.clear {
-    clear: both;
-}
-
-.navegacao-link {
+#branco {
     color: #FFF;
 }
 
-.post, .info {
-    background: #FFF;
-    margin-top: 20px;
+#principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
 }
 
-.post {
-    width: 650px;
-    padding: 25px;
+#postagens {
+    width: 660px;
+    float: left;
 }
 
-.info {
-    width: 200px;
-    padding: 10px;
+#informacoes {
+    width: 240px;
     float: right;
 }
 
-.texto-menor {
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
+}
+
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #FFF;
+}
+
+.info {
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #FFF;
+}
+
+.info-lateral {
     font-size: 0.8em;
+    padding: 5px;
 }
 
-.ler-mais {
-    color: #F7B600;
-}
-
-.link-categorias {
-    display: block;
-    color: #F7B600;
+.data-post {
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
 }
